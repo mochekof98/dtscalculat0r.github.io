@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+body {
+    margin: auto;
+    padding: auto;
+    background-image: url("https://www.pngitem.com/pimgs/m/442-4420751_this-math-calculator-icon-type-png-transparent-png.png");
+    background-size: 30px;
+    background-repeat: repeat;
+    background-color: black;
+    background-clip: border-box;
+}
+
+header {
+    background-color: grey;
+    color: white;
+    z-index: 0;
+    width: 100%;
+    height: 60px;
+    top: 0;
+    position: fixed;
+}
+
+.header-right p {
+    text-align: center;
+    float: right;
+    margin: auto;
+}
+
+.header-right a {
+    float: right;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: -25px;
+    margin-bottom: -25px;
+}
+
+.logo {
+    width: 40px;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.calculatorweb {
+    border: 100px, solid, black;
+    max-width: 500px;
+    font-size: x-large;
+    margin-bottom: 40px;
+    margin: auto;
+}
+
+.cal-btn {
+    display: grid;
+    justify-content: center;
+    align-items: 0;
+    min-height: 50vh;
+    grid-template-columns: repeat(4, 100px);
+    border: 100px, solid, black;
+    font-size: 60px;
+}
+
+.cal-btn>button {
+    color: black;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.cal-btn>button:hover {
+    background-color: lightgrey;
+}
+
+.span-three {
+    grid-column: span 2;
+}
+
+.output {
+    grid-column: 1 / -1;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    word-wrap: break-word;
+    word-break: break-all;
+    margin-top: 200px;
+    margin-left: 50px;
+    width: 400px;
+    border: 10px, solid, black;
+}
+
+.output .prev-operand {
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 20px;
+}
+
+.output .cur-operand {
+    color: black;
+    font-size: 30px;
+}
+
+footer {
+    margin-top: 200px;
+    height: 80px;
+    background-color: darkgrey;
+}
+
+footer p {
+    text-align: center;
+    padding-top: 30px;
+}
